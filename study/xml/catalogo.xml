@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xslt/catalogo.xsl" type="text/xsl"?>
+
+<catalogo>
+    <cd>
+        <title>Dark Side</title>
+        <artist>Pink floyd</artist>
+        <country>USA</country>
+        <price>300</price>
+        <year>1970</year>
+    </cd>
+
+    <cd>
+        <title>Thriller</title>
+        <artist>Michael Jackson</artist>
+        <country>USA</country>
+        <price>80</price>
+        <year>1960</year>
+    </cd>
+
+    <cd>
+        <title>Back in Black</title>
+        <artist>AC/DC</artist>
+        <country>USA</country>
+        <price>120</price>
+        <year>1980</year>
+    </cd>
+
+    <cd>
+        <title>Nevermind</title>
+        <artist>Nirvana</artist>
+        <country>USA</country>
+        <price>75</price>
+        <year>1975</year>
+    </cd>
+</catalogo>
