@@ -33,4 +33,11 @@
         <price>75</price>
         <year>1975</year>
     </cd>
+        <cd>
+        <title>Justin Bieber</title>
+        <artist>Boyfriend</artist>
+        <country>CANADA</country>
+        <price>109</price>
+        <year>2011</year>
+    </cd>
 </catalogo>
