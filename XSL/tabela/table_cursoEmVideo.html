@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          table{
+               width: 500px;
+               margin: auto;
+               border-collapse: collapse;
+          }
+
+          td,th{
+               border: 1px solid black;
+               text-align: center;
+               padding: 5px;
+          }
+
+          th{
+               background-color: rgb(76, 76, 185);
+               color: white;
+          }
+
+          tfoot td,th {
+               border: none;
+               background-color: rgb(38, 70, 111);
+               color: white;
+          }
+
+          .num{
+               text-align: right;
+          }
+
+          caption{
+               font-size: 1.5em;
+               font-weight: bold;
+               padding: 8px;
+               background-color: rgb(199, 199, 199);
+          }
+
+          tbody > tr:nth-child(odd) {
+               background-color: rgb(239, 239, 239);
+          }
+
+       
+
+     </style>
+</head>
+<body>
+     
+
+     <table>
+          <caption>Estados Brasil</caption>
+          <thead>
+               <tr>
+                    <th scope="col" >Posição</th>
+                    <th scope="col">Estado</th>
+                    <th style="width: 60px;" scope="col">População</th>
+               </tr>
+          </thead>
+
+          <tbody>
+               <tr>
+                    <td>1</td>
+                    <td>São Paulo</td>
+                    <td class="num">4591949</td>
+               </tr>
+               <tr>
+                    <td>2</td>
+                    <td>Rio de Janeiro</td>
+                    <td class="num" >192949</td>
+               </tr>
+               <tr>
+                    <td>3</td>
+                    <td>Parana</td>
+                    <td class="num">842384</td>
+               </tr>
+               <tr>
+                    <td>4</td>
+                    <td>Minas</td>
+                    <td class="num">842384</td>
+               </tr>
+               <tr>
+                    <td>5</td>
+                    <td>Brasilia</td>
+                    <td class="num">452384</td>
+               </tr>
+               <tr>
+                    <td>6</td>
+                    <td>Amazonas</td>
+                    <td class="num">452384</td>
+               </tr>
+               <tr>
+                    <td>7</td>
+                    <td>Rio Grande do Sul</td>
+                    <td class="num">452384</td>
+               </tr>
+               <tr>
+                    <td>8</td>
+                    <td>Acre</td>
+                    <td class="num">452384</td>
+               </tr>
+          </tbody>
+          <tfoot>
+               <tr>
+                    <th scope="row"  style="text-align: left;" colspan="2">Total Habitantes:</th>
+                    <td class="num" >36454321</td>
+               </tr>
+          </tfoot>
+
+     </table>
+
+</body>
+</html>

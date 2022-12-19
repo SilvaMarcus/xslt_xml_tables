@@ -1,0 +1,22 @@
+
+
+titulo{
+ font-size: 3rem ;
+}
+
+livro{
+     font-weight: bold;
+}
+
+autor{
+     font-weight: bold;
+}
+
+p{
+     font-size: 1.5rem;
+}
+
+livro, autor,titulo,p {
+     display: block;
+     text-align: center;
+}

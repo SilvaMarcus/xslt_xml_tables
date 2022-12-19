@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="movies.xsl" type="text/xsl"?>
+
+<collection>
+     <movie>
+          <title>Fight Club</title>
+          <year>2001</year>
+          <genre>Fantasy</genre>
+     </movie>
+     <movie>
+          <title>Lord Rings</title>
+          <year>2002</year>
+          <genre>Adventure/Fantasy</genre>
+     </movie>
+     <movie>
+          <title>Harry Potter</title>
+          <year>2001</year>
+          <genre>Fantasy</genre>
+     </movie>
+</collection>
+                

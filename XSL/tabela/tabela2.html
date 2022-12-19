@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+
+     <style>
+          header{
+               background-color: green;
+               color:#fff;
+               font-size: 30pt;
+               text-align: center;
+               margin: auto;
+          }
+
+          table{
+               width: 600px;
+               margin: auto;
+               border-collapse: collapse;
+               border: solid 1px rgb(163, 163, 163);
+          }
+
+          td{
+               border: solid 1px rgb(159, 159, 159);
+               padding-left: 10px;
+               height: 40px;
+          }
+
+          thead{
+               background-color: #273460;
+               color: #fff;
+               font-size: 18pt;
+               text-align: center;
+               height: 60px;
+          }
+
+          .major-data{
+               background-color: #c7cfed;
+               text-align: center;
+               font-size: 16pt;
+               padding: 0;
+          }
+
+          tfoot{
+               background-color:#273460;
+               color:#fff;
+               text-align: center;
+               font-size: 13pt;
+
+          }
+
+
+
+
+          
+
+     </style>
+</head>
+<body>
+     
+     <header>
+          <h2>Tabela</h2>
+     </header>
+
+     <table>
+
+          <!-- Cabeçalho -->
+          <thead>
+               <tr>
+                    <th colspan="3" >Cabeçalho da Tabela</th>
+               </tr>
+          </thead>
+
+          <!-- Corpo da Tabela -->
+          <tbody>
+               <!-- Linha 1 -->
+               <tr>
+                    <td class="major-data" rowspan="4" >Celula</td>
+                    <td class="midle-data" rowspan="2" >Celula</td>
+                    <td>Celula</td>
+               </tr>
+
+               <!-- Linha2 -->
+               <tr>
+                    <td>Celula</td>
+               </tr>
+
+               <!-- Linha 3 -->
+               <tr>
+                    <td class="midle-data" rowspan="2" >Celula</td>
+                    <td>Celula</td>
+               </tr>
+
+               <!-- Linha 4 -->
+               <tr>
+                    <td>Celula</td>
+               </tr>
+
+
+
+            <!-- Linha 5 espaçamento -->
+               <tr style="height: 16px;">
+                 
+               </tr>
+
+
+                     <!-- Linha 1 -->
+                     <tr>
+                         <td class="major-data" rowspan="4" >Celula</td>
+                         <td class="midle-data" rowspan="2" >Celula</td>
+                         <td>Celula</td>
+                    </tr>
+     
+                    <!-- Linha2 -->
+                    <tr>
+                         <td>Celula</td>
+                    </tr>
+     
+                    <!-- Linha 3 -->
+                    <tr>
+                         <td class="midle-data" rowspan="2" >Celula</td>
+                         <td>Celula</td>
+                    </tr>
+     
+                    <!-- Linha 4 -->
+                    <tr>
+                         <td>Celula</td>
+                    </tr>
+          </tbody>
+
+          <tfoot>
+               <tr>
+                    <td colspan="3" >Rodapé da Tabela</td>
+               </tr>
+          </tfoot>
+     </table>
+
+</body>
+</html>

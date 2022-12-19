@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xsl/choose.xsl" type="text/xsl"?>
+
+
+<catalogo>
+     <cd>
+          <title>My World</title>
+          <artist>Justin Bieber</artist>
+          <country>Canada</country>
+          <company>Records</company>
+          <price>10</price>
+          <year>2010</year>
+     </cd>
+     <cd>
+          <title>Indgo</title>
+          <artist>Chris Brown</artist>
+          <country>USA</country>
+          <company>Sony</company>
+          <price>10</price>
+          <year>2020</year>
+     </cd>
+     <cd>
+          <title>Suit and Tie </title>
+          <artist>Timberlake</artist>
+          <country>USA</country>
+          <company>Universal</company>
+          <price>12</price>
+          <year>2013</year>
+     </cd>
+     <cd>
+          <title>Halo</title>
+          <artist>Beyonce</artist>
+          <country>USA</country>
+          <company>Sony</company>
+          <price>11</price>
+          <year>2008</year>
+     </cd>
+     <cd>
+          <title>Thriller</title>
+          <artist>Michael Jackson</artist>
+          <country>USA</country>
+          <company>Records</company>
+          <price>18</price>
+          <year>1980</year>
+     </cd>
+     <cd>
+          <title>Back in Black</title>
+          <artist>AC/DC</artist>
+          <country>USA</country>
+          <company>Rockstar</company>
+          <price>13</price>
+          <year>1970</year>
+     </cd>
+     <cd>
+          <title>The Dark Side of Moon</title>
+          <artist>Pink Floyd</artist>
+          <country>Texas</country>
+          <company>Disney</company>
+          <price>12</price>
+          <year>1977</year>
+     </cd>
+
+</catalogo>
